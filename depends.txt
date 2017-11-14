@@ -1,0 +1,14 @@
+? ocaml -> thrifht
+? ocaml findlib ("ocamlfind" program)
+perldoc
+  - This is just used to generate the manpage.
+static libc
+  - Can be replaced with dietlibc, musl-libc (and maybe other
+    alternate libc).  See section ``Alternate libc'' below.
+bash
+gcc
+gawk
+libcom_err
+libext2fs
+/sbin/mke2fs
+  - These are part of e2fsprogs.
